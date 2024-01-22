@@ -3,6 +3,11 @@ nav
     width: 100%;
     background-color: white;
 }
+.collapse a:hover
+{
+    background-color: rgb(217, 216, 216);
+    border-radius: 5px;
+}
 #navlink1
 {
     color: black;
@@ -52,7 +57,7 @@ nav
     width: 130px;
     height: 45px;
     color: white;
-    background-color: gray;
+    background-color: #d0b200;
     border-width: 0px;
     border-radius: 5px;
     margin-right: 10px;
@@ -64,8 +69,9 @@ nav
     color: white;
     background-color:transparent;
     border-width: 1px;
-    border-color: white;
     border-radius: 5px;
+    border-color:white;
+
 }
 .wcu-section {
     background-color: #f9fbfe;
