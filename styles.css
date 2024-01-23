@@ -3,6 +3,10 @@ nav
     width: 100%;
     background-color: white;
 }
+nav a:active
+{
+    transform: scale(0.95);
+}
 .collapse a:hover
 {
     background-color: rgb(217, 216, 216);
