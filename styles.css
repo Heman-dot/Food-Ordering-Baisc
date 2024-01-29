@@ -1,6 +1,10 @@
+body{
+  width: 100vw;
+  background: linear-gradient( #ffffff 90%,#f0e6aa)
+}
 nav
 {
-    width: 100%;
+    width: 100vw;
     background-color: white;
 }
 nav a:active
@@ -194,7 +198,7 @@ nav a:active
     margin-right: 28px;
   }
   .thanking-customers-section {
-    background-color: #d0b2001a;
+    background-color: #d4c56f1a;
   }
   .thanking-customers-section-heading {
     font-family: "Roboto";
@@ -210,4 +214,42 @@ nav a:active
   .thanking-customers-section-img {
     width: 270px;
     margin-bottom: 20px;
+  }
+  follow-us-section {
+    background-color: white;
+  }
+  .follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+  .icon {
+    color: #d0b200;
+    font-size: 35px;
+  }
+  
+  .footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
   }

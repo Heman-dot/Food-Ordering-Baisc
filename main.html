@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food-Ordering</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/c6266cbdf4.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -28,7 +29,7 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -53,7 +54,7 @@
             >
             <a class="nav-link" id="navlink2" href="#sectionexplore">Explore Menu</a>
             <a class="nav-link" id="navlink3" href="#sectiondelivery">Delivery & Payments</a>
-            <a class="nav-link" id="navlink4" href="#sectionredeems">Offers and Redeems </a>
+            <a class="nav-link" id="navlink4" href="#followUsSection"> Follow Us </a>
           </div>
         </div>
       </div>
@@ -430,7 +431,7 @@
                 class="thanking-customers-section-img"
               />
               </div>
-              <div class="col-12 col-md-5">
+              <div class="col-12 col-md-5 d-none d-md-block">
                 <img
                 src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
                 class="thanking-customers-section-img"
@@ -441,6 +442,43 @@
         </div>
       </div>
     </div>
-    
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="follow-us-section-heading">Follow Us</h1>
+          </div>
+          <div class="col-12">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="follow-us-icon-container">
+                <i class="fab fa-twitter icon"></i>
+              </div>
+              <div class="follow-us-icon-container">
+                <i class="fab fa-instagram icon"></i>
+              </div>
+              <div class="follow-us-icon-container">
+                <i class="fab fa-facebook icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img style="width: 10%;"
+              src="Assets/kisspng-wall-decal-food-sticker-5b2033002cd2e9.6418762515288368641836.png"
+              class="food-munch-logo"
+            />
+            <h1 class="footer-section-mail-id">orderfood@nowhere.com</h1>
+            <p class="footer-section-address">
+              You know where it is!!!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
