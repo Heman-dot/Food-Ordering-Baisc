@@ -1,6 +1,6 @@
 body{
   width: 100vw;
-  background: linear-gradient( #ffffff 90%,#f0e6aa)
+  background: linear-gradient( #ffffff 70%,#f0e6aa)
 }
 nav
 {
@@ -169,14 +169,22 @@ nav a:active
     font-size: 16px;
   }
   .custom-button {
-    width: 130px;
-    height: 45px;
+    width: 120px;
+    height: 40px;
     color: white;
-    background-color: #d0b200;
+    background-image: linear-gradient(#d0b200, #a58d00);
     border-width: 0;
     border-radius: 8px;
     margin-right: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  .custom-button:hover{
+    background-image: linear-gradient(#edd131, #a58d00);
+
+  }
+  .custom-button:active
+  {
+    transform: scale(0.9);
   }
   .delivery-and-payment-section-img {
     width: 270px;
@@ -197,9 +205,7 @@ nav a:active
     height: 50px;
     margin-right: 28px;
   }
-  .thanking-customers-section {
-    background-color: #d4c56f1a;
-  }
+  
   .thanking-customers-section-heading {
     font-family: "Roboto";
     font-weight: 700;
@@ -252,4 +258,9 @@ nav a:active
     color: #959ead;
     font-family: "Roboto";
     font-size: 14px;
+  }
+  hr{
+    border-bottom: 10px solid black;
+    size: 2px;
+    
   }
